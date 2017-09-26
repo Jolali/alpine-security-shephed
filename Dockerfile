@@ -43,4 +43,4 @@ EXPOSE 8080 8443 3306 27017
 
 CMD mysqld_safe --user=root & \
     mongod & \
-    /usr/local/tomcat/bin/startup.sh
+    /usr/local/tomcat/bin/catalina.sh run
